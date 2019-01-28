@@ -1,0 +1,2 @@
+char how 5 , why 99 : (true - qweasd3);
+void MyFunc() { continue ;}

@@ -1,0 +1,2 @@
+int hello()
+giveback f7 += k.neg;

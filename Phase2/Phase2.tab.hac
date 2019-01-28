@@ -1,0 +1,111 @@
+/* A Bison parser, made by GNU Bison 2.5.  */
+
+/* Bison interface for Yacc-like parsers in C
+   
+      Copyright (C) 1984, 1989-1990, 2000-2011 Free Software Foundation, Inc.
+   
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.  */
+
+/* As a special exception, you may create a larger work that contains
+   part or all of the Bison parser skeleton and distribute that work
+   under terms of your choice, so long as that work isn't itself a
+   parser generator using the skeleton or a modified version thereof
+   as a parser skeleton.  Alternatively, if you modify or redistribute
+   the parser skeleton itself, you may (at your option) remove this
+   special exception, which will cause the skeleton and the resulting
+   Bison output files to be licensed under the GNU General Public
+   License without this special exception.
+   
+   This special exception was added by the Free Software Foundation in
+   version 2.2 of Bison.  */
+
+
+/* Tokens.  */
+#ifndef YYTOKENTYPE
+# define YYTOKENTYPE
+   /* Put the tokens into the symbol table, so that GDB and other debuggers
+      know about them.  */
+   enum yytokentype {
+     PROGRAM_KW = 258,
+     MAIN_KW = 259,
+     PROCEDURE_KW = 260,
+     INTEGER_KW = 261,
+     REAL_KW = 262,
+     CHAR_KW = 263,
+     BOOLEAN_KW = 264,
+     IF_KW = 265,
+     THEN_KW = 266,
+     ELSE_KW = 267,
+     DO_KW = 268,
+     WHILE_KW = 269,
+     FOR_KW = 270,
+     IN_KW = 271,
+     REPEAT_KW = 272,
+     SWITCH_KW = 273,
+     CASE_KW = 274,
+     DEFAULT_KW = 275,
+     END_KW = 276,
+     RETURN_KW = 277,
+     EXIT_KW = 278,
+     WHEN_KW = 279,
+     AND_KW = 280,
+     AND_THEN_KW = 281,
+     OR_KW = 282,
+     OR_ELSE_KW = 283,
+     NOT_KW = 284,
+     SEMICOLON_KW = 285,
+     COLON_KW = 286,
+     COMMA_KW = 287,
+     SINGLE_QUOTE_KW = 288,
+     ASS_KW = 289,
+     LP_KW = 290,
+     RP_KW = 291,
+     LB_KW = 292,
+     RB_KW = 293,
+     LCB_KW = 294,
+     RCB_KW = 295,
+     TWO_DOTS_KW = 296,
+     DOT_KW = 297,
+     EQ_KW = 298,
+     NE_KW = 299,
+     LE_KW = 300,
+     LT_KW = 301,
+     GE_KW = 302,
+     GT_KW = 303,
+     ADD_KW = 304,
+     SUB_KW = 305,
+     MUL_KW = 306,
+     DIV_KW = 307,
+     MOD_KW = 308,
+     BOOLEAN_CONSTANT = 309,
+     CHAR_CONSTANT = 310,
+     REAL_CONSTANT = 311,
+     INTEGER_CONSTANT = 312,
+     IDENTIFIER = 313,
+     usub = 314
+   };
+#endif
+
+
+
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
+typedef int YYSTYPE;
+# define YYSTYPE_IS_TRIVIAL 1
+# define yystype YYSTYPE /* obsolescent; will be withdrawn */
+# define YYSTYPE_IS_DECLARED 1
+#endif
+
+extern YYSTYPE yylval;
+
+
